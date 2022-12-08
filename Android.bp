@@ -5,7 +5,7 @@ android_app_import {
 	name: "AuroraServices",
 	owner: "GitLab",
 	apk: "proprietary/priv-app/AuroraServices.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
